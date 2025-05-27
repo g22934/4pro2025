@@ -42,7 +42,7 @@ void main(){
     p=2.0*p - 1.0;
 
     vec3 light=vec3(0.0,100.0,100.0);
-    vec3 camera = vec3(0.0,0.0,10.0);
+    vec3 camera = vec3(-2.0,0.0,10.0);
     vec3 cdir = vec3(0.0,0.0,-1.0);
     vec3 updir = vec3(0.0,1.0,0.0);
     float depth = 5.0;
