@@ -21,7 +21,7 @@ function App() {
   const { radius, alpha, wallZ,theta, } = useControls({radius :{value:1.0, min: 0.5, max: 2.0, step:0.05},
 					alpha:{value:0.7, min: 0.0, max: 1.0, step:0.05},
           wallZ :{value:0.0,min:-2.0,max:2.0,step:0.01},
-          theta:{value:0.0,min:-1,max:1,step:0.01}
+          theta:{value:0.0,min:-3.14159*0.1,max:3.14159*0.1,step:0.01}
 				       });
   return (
     <>
